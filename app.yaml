@@ -1,0 +1,9 @@
+command: [
+  "python",
+  "app.py"
+]
+env:
+  - name: "DATABRICKS_ENDPOINT_NAME"
+    value: "https://[WORKSPACE].cloud.databricks.com/serving-endpoints/agents_users-eumarassis-basic_rag_demo/invocations"
+  - name: "DATABRICKS_API_TOKEN"
+    value: "[TOKEN]"
